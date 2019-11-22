@@ -16,8 +16,8 @@ from google.auth.transport.requests import Request
 SCOPES = ['https://www.googleapis.com/auth/classroom.announcements' , 'https://www.googleapis.com/auth/classroom.courses' , 'https://www.googleapis.com/auth/classroom.coursework.me' , 'https://www.googleapis.com/auth/classroom.coursework.students' ]#coursework.students
 # Retrieve required details from environment variables
 bot_email = "limpehbot@webex.bot"
-teams_token = "MmQzZGNiNDItNzNlOC00OWI2LWI4NWItYTU3ZTViOGFjZDFiY2QzZWQ5YzQtYzVj_PF84_f8cd083a-d95c-4b21-9f46-ba606b68cf0e"
-bot_url = "https://df524144.ngrok.io"
+teams_token = "REDACTED" # use your own
+bot_url = "https://df524144.ngrok.io" #enter your own NGROK address
 bot_app_name = "limpehbotapp"
 
 #database connection
